@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { MuestraComponent } from './components/muestra/muestra.component';
+import { BateriaComponent } from './components/bateria/bateria.component';
 import { ListaComponent } from './components/Guitarras/lista/lista.component';
 import { VentaComponent } from './components/Guitarras/venta/venta.component';
 import { ListaPianosComponent } from './components/piano/lista-pianos-niños/lista-pianos.component';
@@ -29,6 +30,10 @@ const routes: Routes = [
     component: MuestraComponent
   },
   {
+   {
+    path: 'bateria',
+    component: BateriaComponent
+  },
     path: 'lista',
     component: ListaComponent
   },
