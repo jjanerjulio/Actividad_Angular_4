@@ -9,6 +9,8 @@ import { FooterComponent } from './components/layaut/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { MuestraComponent } from './components/muestra/muestra.component';
+import { ListaComponent } from './components/Guitarras/lista/lista.component';
+import { VentaComponent } from './components/Guitarras/venta/venta.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MuestraComponent } from './components/muestra/muestra.component';
     FooterComponent,
     InicioComponent,
     ContactoComponent,
-    MuestraComponent
+    MuestraComponent,
+    ListaComponent,
+    VentaComponent
   ],
   imports: [
     BrowserModule,
